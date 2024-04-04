@@ -13,8 +13,10 @@ const MoneyDetails = props => {
           className="bal-image"
         />
         <div>
-        <p className="details-text">Your Balance</p>
-        <p className="details-amount" testid="balanceAmount">Rs {balanceAmount}</p>
+          <p className="details-text">Your Balance</p>
+          <p className="details-amount" testid="balanceAmount">
+            Rs {balanceAmount}
+          </p>
         </div>
       </div>
       <div className="income-container">
@@ -24,8 +26,10 @@ const MoneyDetails = props => {
           className="income-image"
         />
         <div>
-        <p className="details-text">Your Income</p>
-        <p className="details-amount" testid="incomeAmount">Rs {incomeAmount}</p>
+          <p className="details-text">Your Income</p>
+          <p className="details-amount" testid="incomeAmount">
+            Rs {incomeAmount}
+          </p>
         </div>
       </div>
       <div className="expenses-container">
@@ -35,8 +39,10 @@ const MoneyDetails = props => {
           className="exp-image"
         />
         <div>
-        <p className="details-text">Your Expenses</p>
-        <p className="details-amount" testid="expensesAmount">Rs {expensesAmount}</p>
+          <p className="details-text">Your Expenses</p>
+          <p className="details-amount" testid="expensesAmount">
+            Rs {expensesAmount}
+          </p>
         </div>
       </div>
     </div>
